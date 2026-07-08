@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recognition | Ed2NextGen</title>
+    <meta name="description" content="Meet the student volunteers who contribute to Ed2NextGen's free educational library.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">E2</span>
+        <span>Ed2NextGen</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="library.html">Library</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="recognition.html" class="active">Recognition</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section page-hero">
+        <p class="eyebrow reveal">Student Recognition</p>
+        <h1 class="reveal">Celebrating every contributor</h1>
+        <p class="lead reveal">
+          Every volunteer who contributes an approved resource is publicly recognized.
+          No accounts needed — we manage profiles right here on the website.
+        </p>
+      </section>
+
+      <section class="section" style="padding-top:0;">
+        <div id="spotlightCard" class="reveal"></div>
+      </section>
+
+      <section class="section" style="padding-top:0;">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Hall of Contributors</p>
+          <h2>Students making a difference</h2>
+          <p class="muted">
+            This table is updated when volunteer work is reviewed and published.
+            To add a contributor, edit <code>js/data.js</code> on the website.
+          </p>
+        </div>
+        <div class="data-table-wrap reveal">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>School</th>
+                <th>Contribution</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody id="contributorsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="soft-band">
+        <div style="max-width:640px;margin:0 auto;text-align:center;" class="reveal">
+          <p class="eyebrow">Want to see your name here?</p>
+          <h2>Join our volunteer community</h2>
+          <p class="lead" style="margin:0 auto 28px;">
+            Create an educational resource, get it reviewed, and earn a place in our Hall of Contributors.
+          </p>
+          <a class="button primary large" href="volunteer.html">Apply to Volunteer</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">E2</span>
+            <span>Ed2NextGen</span>
+          </a>
+          <p>Student-led educational publishing. Free resources for children, classrooms, and communities.</p>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="mailto:ed2nextgen@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="library.html">Library</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="recognition.html">Recognition</a>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <a href="about.html">Our Story</a>
+          <a href="about.html#mission">Mission</a>
+          <a href="volunteer.html#guidelines">Guidelines</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <a href="volunteer.html">Apply to Volunteer</a>
+          <a href="contact.html">Partnerships</a>
+          <a href="contact.html">School Inquiries</a>
+          <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Ed2NextGen. All rights reserved.</span>
+        <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

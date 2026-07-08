@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ed2NextGen | Free Educational Resources by Student Volunteers</title>
+    <meta name="description" content="Ed2NextGen empowers student volunteers to create free educational books, guides, and activities for children, classrooms, and communities worldwide.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">E2</span>
+        <span>Ed2NextGen</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="library.html">Library</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="recognition.html">Recognition</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Student-Led Educational Publishing</p>
+          <h1>Creating Free Educational Resources, One Student at a Time.</h1>
+          <p class="lead">
+            We empower student volunteers to write books, design learning materials, and create
+            educational resources that help children, classrooms, and communities around the world.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="library.html">📚 Explore Library</a>
+            <a class="button secondary" href="volunteer.html">✍️ Become a Volunteer</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-card">
+            <img src="assets/hero-illustration.svg" alt="Illustration of students creating educational resources together.">
+          </div>
+          <div class="hero-badge">
+            <span aria-hidden="true" style="font-size:1.5rem;">🌍</span>
+            <div>
+              <strong>Free for everyone</strong>
+              <span>Books, guides &amp; activities at no cost</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stats-grid" aria-label="Our impact">
+        <article class="stat-card reveal">
+          <span class="stat-icon" aria-hidden="true">👩‍🎓</span>
+          <span class="stat-value" data-stat="volunteers">0</span>
+          <span class="stat-label">Student Volunteers</span>
+        </article>
+        <article class="stat-card reveal">
+          <span class="stat-icon" aria-hidden="true">📚</span>
+          <span class="stat-value" data-stat="booksPublished">0</span>
+          <span class="stat-label">Books Published</span>
+        </article>
+        <article class="stat-card reveal">
+          <span class="stat-icon" aria-hidden="true">📖</span>
+          <span class="stat-value" data-stat="resources">0</span>
+          <span class="stat-label">Educational Resources</span>
+        </article>
+        <article class="stat-card reveal">
+          <span class="stat-icon" aria-hidden="true">🏫</span>
+          <span class="stat-value" data-stat="schoolsReached">0</span>
+          <span class="stat-label">Schools Reached</span>
+        </article>
+      </section>
+
+      <section class="band">
+        <div class="band-inner">
+          <div class="reveal">
+            <p class="eyebrow">Our Mission</p>
+            <h2>Every student has something valuable to teach.</h2>
+            <p class="muted">
+              We believe that by creating free educational resources, student volunteers make learning
+              more accessible while developing leadership, communication, and creativity. Our library
+              grows one contribution at a time — reviewed, published, and shared with the world.
+            </p>
+          </div>
+          <div class="reveal">
+            <div class="value-card" style="margin:0;">
+              <h3>Why we started</h3>
+              <p>
+                Too many classrooms lack quality learning materials. Ed2NextGen connects young creators
+                with communities that need them — no paywalls, no barriers, just learning that reaches
+                everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">How It Works</p>
+          <h2>From idea to published resource in four steps</h2>
+          <p class="lead">A simple path for students who want to make a real difference.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal" data-step="1">
+            <h3>Apply</h3>
+            <p>Complete the volunteer application and tell us about your interests and skills.</p>
+          </article>
+          <article class="step-card reveal" data-step="2">
+            <h3>Create</h3>
+            <p>Write or design an educational resource using our submission guidelines.</p>
+          </article>
+          <article class="step-card reveal" data-step="3">
+            <h3>Review</h3>
+            <p>Our team reviews your work for quality, accuracy, and educational value.</p>
+          </article>
+          <article class="step-card reveal" data-step="4">
+            <h3>Publish</h3>
+            <p>Your resource becomes part of our free online library for anyone to download.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top:0;">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured Resources</p>
+          <h2>Student-created learning materials</h2>
+          <p class="lead">Browse books, guides, and activities made by young volunteers.</p>
+        </div>
+        <div class="card-grid" id="featuredGrid"></div>
+        <p style="text-align:center;margin-top:32px;" class="reveal">
+          <a class="button secondary" href="library.html">View Full Library</a>
+        </p>
+      </section>
+
+      <section class="soft-band">
+        <div style="max-width:var(--max);margin:0 auto;text-align:center;" class="reveal">
+          <p class="eyebrow">Join Us</p>
+          <h2>Ready to create something that matters?</h2>
+          <p class="lead" style="margin:0 auto 28px;">
+            Whether you love writing, illustrating, editing, or researching — there's a place for you.
+          </p>
+          <a class="button primary large" href="volunteer.html">Become a Volunteer</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">E2</span>
+            <span>Ed2NextGen</span>
+          </a>
+          <p>Student-led educational publishing. Free resources for children, classrooms, and communities.</p>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="mailto:ed2nextgen@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="library.html">Library</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="recognition.html">Recognition</a>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <a href="about.html">Our Story</a>
+          <a href="about.html#mission">Mission</a>
+          <a href="volunteer.html#guidelines">Guidelines</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <a href="volunteer.html">Apply to Volunteer</a>
+          <a href="contact.html">Partnerships</a>
+          <a href="contact.html">School Inquiries</a>
+          <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Ed2NextGen. All rights reserved.</span>
+        <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

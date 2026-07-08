@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Ed2NextGen</title>
+    <meta name="description" content="Get in touch with Ed2NextGen for volunteer inquiries, partnerships, school collaborations, and general questions.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">E2</span>
+        <span>Ed2NextGen</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="library.html">Library</a>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="recognition.html">Recognition</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section page-hero">
+        <p class="eyebrow reveal">Contact Us</p>
+        <h1 class="reveal">We'd love to hear from you</h1>
+        <p class="lead reveal">
+          Questions, partnerships, school inquiries, or volunteer interest — reach out anytime.
+        </p>
+      </section>
+
+      <section class="section" style="padding-top:0;">
+        <div class="contact-cards">
+          <article class="contact-card reveal">
+            <h3>📧 General Inquiries</h3>
+            <p>Questions about Ed2NextGen, our library, or how to get involved.</p>
+            <p style="margin-top:12px;"><a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a></p>
+          </article>
+          <article class="contact-card reveal">
+            <h3>🤝 Partnerships</h3>
+            <p>Schools, nonprofits, and organizations interested in collaborating with us.</p>
+            <p style="margin-top:12px;"><a href="mailto:ed2nextgen@gmail.com?subject=Partnership%20Inquiry">ed2nextgen@gmail.com</a></p>
+          </article>
+          <article class="contact-card reveal">
+            <h3>✍️ Volunteer Inquiries</h3>
+            <p>Ready to create educational resources? Start your application today.</p>
+            <p style="margin-top:12px;"><a href="volunteer.html">Apply to volunteer →</a></p>
+          </article>
+        </div>
+
+        <div class="split">
+          <div class="reveal">
+            <h2>Send us a message</h2>
+            <p class="muted">
+              Fill out the form and your email app will open with your message ready to send.
+              We typically respond within a few business days.
+            </p>
+            <p class="muted">
+              <strong>Email:</strong>
+              <a href="mailto:ed2nextgen@gmail.com" style="color:var(--sage);">ed2nextgen@gmail.com</a>
+            </p>
+          </div>
+
+          <form id="contactForm" class="form reveal">
+            <div class="form-grid">
+              <label>
+                Name
+                <input name="name" autocomplete="name" required>
+              </label>
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" required>
+              </label>
+            </div>
+            <label>
+              Topic
+              <select name="topic" required>
+                <option value="">Select a topic</option>
+                <option>General question</option>
+                <option>Volunteer inquiry</option>
+                <option>Partnership</option>
+                <option>School collaboration</option>
+                <option>Media / press</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="6" required placeholder="How can we help?"></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="button primary" type="submit">Send Message</button>
+              <p id="contactStatus" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">E2</span>
+            <span>Ed2NextGen</span>
+          </a>
+          <p>Student-led educational publishing. Free resources for children, classrooms, and communities.</p>
+          <div class="social-links" aria-label="Social media">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="mailto:ed2nextgen@gmail.com" aria-label="Email">@</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="library.html">Library</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="recognition.html">Recognition</a>
+        </div>
+        <div class="footer-col">
+          <h4>About</h4>
+          <a href="about.html">Our Story</a>
+          <a href="about.html#mission">Mission</a>
+          <a href="volunteer.html#guidelines">Guidelines</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get Involved</h4>
+          <a href="volunteer.html">Apply to Volunteer</a>
+          <a href="contact.html">Partnerships</a>
+          <a href="contact.html">School Inquiries</a>
+          <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Ed2NextGen. All rights reserved.</span>
+        <a href="mailto:ed2nextgen@gmail.com">ed2nextgen@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
